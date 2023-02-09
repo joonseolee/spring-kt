@@ -1,0 +1,17 @@
+### GET student
+GET http://localhost:8080/students
+Accept: application/json
+
+### GET student by id
+GET http://localhost:8080/students/1
+Accept: application/json
+
+### POST student
+POST http://localhost:8080/students
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "content",
+  "age": 23
+}
